@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project name="gsri_vip">
+	<Package name="Metadata">
+		<Key ID="STR_GSRI_VIP_AUTHOR">
+			<Original>[-GSRI-] PhileasLX for www.gsri.team</Original>
+			<French>[-GSRI-] PhileasLX pour www.gsri.team</French>
+		</Key>
+	</Package>
+	<Package name="Protection">
+		<Key ID="STR_VIP_protection">
+			<Original>Equip protection</Original>
+			<English>Equip protection</English>
+			<French>Équiper protection</French>
+		</Key>
+		<Key ID="STR_VIP_settingUpprotection">
+			<Original>Setting up protection...</Original>
+			<English>Setting up protection...</English>
+			<French>Mise en place de l'équipement...</French>
+		</Key>		
+	</Package>
+</Project>
