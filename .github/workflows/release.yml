@@ -15,14 +15,14 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Build addons
-      uses: ArwynFr/actions-arma-tools/build-addon@master
+      uses: team-gsri/actions-arma-tools/build-addon@0.0.1
       with:
         prefix: 'fr\gsri\vip'
         source: ./addons/gsri_vip
         target: ./
 
     - name: Create Github release
-      uses: ArwynFr/actions-arma-tools/release-mod@master
+      uses: team-gsri/actions-arma-tools/release-mod@0.0.1
       with:
         source: ./
         name: GSRI-VIP
