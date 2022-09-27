@@ -1,0 +1,33 @@
+name: release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths: ['addons/**']
+
+jobs:
+  release:
+    runs-on: [self-hosted, arma-tools]
+    steps:
+
+    - name: Checkout files
+      uses: actions/checkout@v3
+
+    - name: Build addons
+      uses: ArwynFr/actions-arma-tools/build-addon@master
+      with:
+        prefix: 'fr\gsri\vip'
+        source: ./addons/gsri_vip
+        target: ./
+
+    - name: Create Github release
+      uses: ArwynFr/actions-arma-tools/release-mod@master
+      with:
+        source: ./
+        name: GSRI-VIP
+        product: 'GSRI VIP Identification and Protection'
+        image: gsrilogo.paa
+        workshopId: ${{ secrets.WORKSHOP_ID }}
+        steam_login: ${{ secrets.STEAM_LOGIN }}
+        steam_password: ${{ secrets.STEAM_PASSWD }}
