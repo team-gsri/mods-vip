@@ -21,7 +21,7 @@ jobs:
         source: ./addons/gsri_vip
         target: ./
 
-    - name: Create Github release
+    - name: Deploy mod to GitHub and Workshop
       uses: team-gsri/actions-arma-tools/release-mod@0.0.1
       with:
         source: ./
