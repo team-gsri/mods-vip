@@ -13,6 +13,8 @@ class CfgFunctions {
 			file="fr\gsri\vip\functions\protection";
 			class vipCheckForGear {};
 			class vipEquipGear {};
+			class vipEquipGearFailure {};
+			class vipEquipGearSuccess {};
 			class vipProcessGearInfos {};
 			class vipTryEquipGear {};
 		};

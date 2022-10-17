@@ -21,6 +21,7 @@ if(_gear isEqualTo "") exitWith { diag_log ["GSRI VIP: vipTryEquipGear: no _gear
 _duration = [_target, _gear] call GSRI_fnc_vipProcessGearInfos;
 
 // Get animations that will be played to get their durations and calculate the speedAnimCoeff to apply
+private _currentAnimName = animationState _player;
 private _animName = "AmovP[pos]MstpS[stn]W[wpn]Dnon_AmovPercMstpS[stn]W[wpn]Dnon";
 private _animArray = [];
 private _wpn = ["non", "rfl", "lnr", "pst"] param [["", primaryWeapon _player, secondaryWeapon _player, handgunWeapon _player] find currentWeapon _player];
@@ -49,7 +50,7 @@ private _animDuration = 0;
 
 private _animRatio = _animDuration / _duration;
 
-[_player, _animRatio] remoteExec["setAnimSpeedCoef"];
+["vipChangeSpeedCoeff", [_player, _animRatio]] call CBA_fnc_globalEvent;
 [_player, "Act_Alien_Gesture"] call ace_common_fnc_doAnimation;
 
-[_duration, [_target, _player, _gear] , {_args call GSRI_fnc_vipEquipGear; [_args select 0, 1] remoteExec["setAnimSpeedCoef"];}, {[_args select 0, 1] remoteExec["setAnimSpeedCoef"];}, localize "STR_VIP_settingUpProtection"] call ace_common_fnc_progressBar;
+[_duration, [_target, _player, _gear, _currentAnimName] , GSRI_fnc_vipEquipGearSuccess, GSRI_fnc_vipEquipGearFailure, localize "STR_VIP_settingUpProtection"] call ace_common_fnc_progressBar;
