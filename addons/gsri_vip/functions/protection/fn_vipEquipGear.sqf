@@ -63,7 +63,7 @@ if !(_vipGear isEqualTo "") then {
     _gearHolder addItemCargoGlobal [_vipGear, 1]; 
 
     if(toLower(_vipGear call BIS_fnc_itemType select 1) isEqualTo "vest") then {
-        _droppedContainer = ((everyContainer _gearHolder select 0) select 1);;
+        _droppedContainer = ((everyContainer _gearHolder select 0) select 1);
         {
             _droppedContainer addItemCargoGlobal [_x, 1];
         } forEach _vestItems;
