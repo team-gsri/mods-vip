@@ -1,19 +1,19 @@
 params [
-	[
-		"_target",
-		objNull,
-		[objNull]
-	],
-	[
-		"_player", 
-		objNull,
-		[objNull]
-	],
-	[
-		"_gear", 
-		"", 
-		[""]
-	]
+    [
+        "_target",
+        objNull,
+        [objNull]
+    ],
+    [
+        "_player", 
+        objNull,
+        [objNull]
+    ],
+    [
+        "_gear", 
+        "", 
+        [""]
+    ]
 ];
 
 if(_gear isEqualTo "") exitWith { diag_log ["GSRI VIP: vipTryEquipGear: no _gear to equip has been passed as argument."] };

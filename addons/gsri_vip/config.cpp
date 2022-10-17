@@ -1,10 +1,10 @@
 class CfgPatches {
-	class gsri_vip {
-		units[]={};
-		requiredVersion=0.1;
-		requiredAddons[]={"ace_common", "ace_interact_menu"};
-		author="$STR_GSRI_VIP_AUTHOR";
-	};
+    class gsri_vip {
+        units[]={};
+        requiredVersion=0.1;
+        requiredAddons[]={"ace_common", "ace_interact_menu"};
+        author="$STR_GSRI_VIP_AUTHOR";
+    };
 };
 
 class CfgFunctions {
