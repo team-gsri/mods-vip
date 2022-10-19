@@ -1,5 +1,7 @@
 if!(isDedicated) then {
-	private _protectionMenu  = ["protectionMenu", localize "STR_VIP_protection", "", {}, {true}, GSRI_fnc_vipCheckForGear] call ace_interact_menu_fnc_createAction;
+	private _protectionMenu  = ["protectionMenu", localize "STR_VIP_protection", "", {}, {true}, GSRI_fnc_vipCheckForGear, "head"] call ace_interact_menu_fnc_createAction;
+	["CAManBase", 0, ["ACE_Head"], _protectionMenu, true] call ace_interact_menu_fnc_addActionToClass;
 
-	["CAManBase", 0, ["ACE_MainActions"], _protectionMenu, true] call ace_interact_menu_fnc_addActionToClass;
+	private _protectionMenu  = ["protectionMenu", localize "STR_VIP_protection", "", {}, {true}, GSRI_fnc_vipCheckForGear, "torso"] call ace_interact_menu_fnc_createAction;
+	["CAManBase", 0, ["ACE_Torso"], _protectionMenu, true] call ace_interact_menu_fnc_addActionToClass;
 };
