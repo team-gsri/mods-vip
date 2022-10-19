@@ -16,7 +16,7 @@ params [
 	]
 ];
 
-if (_gearToEquip isEqualTo "") exitWith { diag_log format["GSRI VIP: vipEquipGear: no _gearToEquip."] };
+if (_gearToEquip isEqualTo "") exitWith { diag_log ["GSRI VIP: vipEquipGear: no _gearToEquip passed as argument."] };
 
 private _vipGear = "";
 private _vestItems = [];
