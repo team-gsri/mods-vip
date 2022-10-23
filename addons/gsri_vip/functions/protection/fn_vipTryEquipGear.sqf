@@ -16,7 +16,7 @@ params [
     ]
 ];
 
-if(_gear isEqualTo "") exitWith { diag_log ["GSRI VIP: vipTryEquipGear: no _gear to equip has been passed as argument."] };
+if(_gear isEqualTo "") exitWith { diag_log "GSRI VIP: vipTryEquipGear: no _gear to equip has been passed as argument." };
 
 _duration = [_target, _gear] call GSRI_fnc_vipProcessGearInfos;
 

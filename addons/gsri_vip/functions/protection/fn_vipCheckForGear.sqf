@@ -16,9 +16,7 @@ params [
     ]
 ];
 
-if (_bodyPart isEqualTo "") exitWith {
-    diag_log "GSRI VIP: checkForGear: no _bodyPart has been passed as argument."
-};
+if (_bodyPart isEqualTo "") exitWith { diag_log "GSRI VIP: checkForGear: no _bodyPart has been passed as argument." };
 
 private _actions = [];
 
