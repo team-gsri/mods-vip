@@ -23,9 +23,69 @@
 			<French>Arme en mains autorisée</French>
 		</Key>
         <Key ID="STR_GSRI_weapon_allowed_tooltip">
-			<Original>If allowed, the player will be able to equip protections to others while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
-			<English>If allowed, the player will be able to equip protections to others while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
-			<French>Si autorisé, le joueur pourra équiper des protections aux autres en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
+			<Original>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
+			<English>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
+			<French>Si autorisé, le joueur pourra équiper des protections à la cible en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingVestDuration">
+			<Original>Time to equip vest</Original>
+			<English>Time to equip vest</English>
+			<French>Durée pour équiper un gilet</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingVestDuration_tooltip">
+			<Original>Duration in seconds to equip vest on target</Original>
+			<English>Duration in seconds to equip vest on target</English>
+			<French>Durée en secondes pour équiper un gilet sur la cible</French>
+		</Key>	
+		<Key ID="STR_GSRI_VIP_equipingVestExtraDuration">
+			<Original>Additional time to equip vest</Original>
+			<English>Additional time to equip vest</English>
+			<French>Temps additionnel pour équiper un gilet</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingVestExtraDuration_tooltip">
+			<Original>Additional duration in seconds when the target already has a vest equiped</Original>
+			<English>Additional duration in seconds when the target already has a vest equiped</English>
+			<French>Durée additionnelle en secondes lorsque la cible porte déjà un gilet</French>
+		</Key>	
+		<Key ID="STR_GSRI_VIP_equipingHeadgearDuration">
+			<Original>Time to equip headgear</Original>
+			<English>Time to equip headgear</English>
+			<French>Durée pour équiper un casque</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingHeadgearDuration_tooltip">
+			<Original>Duration in seconds to equip headgear on target</Original>
+			<English>Duration in seconds to equip headgear on target</English>
+			<French>Durée en secondes pour équiper un casque sur la cible</French>
+		</Key>	
+		<Key ID="STR_GSRI_VIP_equipingHeadgearExtraDuration">
+			<Original>Additional time to equip headgear</Original>
+			<English>Additional time to equip headgear</English>
+			<French>Temps additionnel pour équiper un casque</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingHeadgearExtraDuration_tooltip">
+			<Original>Additional duration in seconds when the target already has a headgear equiped</Original>
+			<English>Additional duration in seconds when the target already has a headgear equiped</English>
+			<French>Durée additionnelle en secondes lorsque la cible porte déjà un casque</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingGlassesDuration">
+			<Original>Time to equip glasses</Original>
+			<English>Time to equip glasses</English>
+			<French>Durée pour équiper un cache-visage</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingGlassesDuration_tooltip">
+			<Original>Duration in seconds to equip glasses on target</Original>
+			<English>Duration in seconds to equip glasses on target</English>
+			<French>Durée en secondes pour équiper un cache-visage sur la cible</French>
+		</Key>	
+		<Key ID="STR_GSRI_VIP_equipingGlassesExtraDuration">
+			<Original>Additional time to equip glasses</Original>
+			<English>Additional time to equip glasses</English>
+			<French>Temps additionnel pour équiper un cache-visage</French>
+		</Key>
+		<Key ID="STR_GSRI_VIP_equipingGlassesExtraDuration_tooltip">
+			<Original>Additional duration in seconds when the target already has a glasses equiped</Original>
+			<English>Additional duration in seconds when the target already has a glasses equiped</English>
+			<French>Durée additionnelle en secondes lorsque la cible porte déjà un cache-visage</French>
 		</Key>	
 	</Package>
 </Project>

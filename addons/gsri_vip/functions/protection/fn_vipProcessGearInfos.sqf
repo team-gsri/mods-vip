@@ -13,17 +13,21 @@ params [
 
 private _duration = 0;
 
+//Get gear type in order to get from setting the duration to equip it, and add extra time when the target already has this kind of gear
 switch (toLower(_gear call BIS_fnc_itemType select 1)) do {
     case "vest": {
-        if ((vest _target) isEqualTo "") then {_duration = 5;} else {_duration = 7;};
+        _duration = gsri_vip_equipingVestDuration;
+        if !((vest _target) isEqualTo "") then {_duration = _duration + gsri_vip_equipingVestExtraDuration;};
     };
 
     case "headgear": {
-        if ((headgear _target) isEqualTo "") then {_duration = 2;} else {_duration = 4;};
+        _duration = gsri_vip_equipingHeadgearDuration;
+        if !((headgear _target) isEqualTo "") then {_duration = _duration + gsri_vip_equipingHeadgearExtraDuration;};
     };
 
     case "glasses": {
-        if ((goggles _target) isEqualTo "") then {_duration = 3;} else {_duration = 5;};
+        _duration = gsri_vip_equipingGlassesDuration;
+        if !((goggles _target) isEqualTo "") then {_duration = _duration + gsri_vip_equipingGlassesExtraDuration;};
     };
 
     default {
