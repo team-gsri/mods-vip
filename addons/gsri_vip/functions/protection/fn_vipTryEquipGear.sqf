@@ -53,4 +53,4 @@ private _animRatio = _animDuration / _duration;
 ["vipChangeSpeedCoeff", [_player, _animRatio]] call CBA_fnc_globalEvent;
 [_player, "Act_Alien_Gesture"] call ace_common_fnc_doAnimation;
 
-[_duration, [_target, _player, _gear, _currentAnimName] , GSRI_fnc_vipEquipGearSuccess, GSRI_fnc_vipEquipGearFailure, localize "STR_VIP_settingUpProtection"] call ace_common_fnc_progressBar;
+[_duration, [_target, _player, _gear, _currentAnimName] , GSRI_fnc_vipEquipGearSuccess, GSRI_fnc_vipEquipGearFailure, localize "STR_GSRI_VIP_settingUpProtection"] call ace_common_fnc_progressBar;

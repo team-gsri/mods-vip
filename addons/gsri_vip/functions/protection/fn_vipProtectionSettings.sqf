@@ -1,7 +1,7 @@
 [
   "gsri_vip_weaponAllowed",
   "CHECKBOX",
-  [localize "STR_GSRI_weapon_allowed", localize "STR_GSRI_weapon_allowed_tooltip"],
+  [localize "STR_GSRI_VIP_weaponAllowed", localize "STR_GSRI_VIP_weaponAllowed_tooltip"],
   ["GSRI VIP", "Protection"],
   true,
   1,

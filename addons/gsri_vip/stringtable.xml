@@ -7,22 +7,22 @@
 		</Key>
 	</Package>
 	<Package name="Protection">
-		<Key ID="STR_VIP_protection">
+		<Key ID="STR_GSRI_VIP_protection">
 			<Original>Equip protection</Original>
 			<English>Equip protection</English>
 			<French>Équiper protection</French>
 		</Key>
-		<Key ID="STR_VIP_settingUpProtection">
+		<Key ID="STR_GSRI_VIP_settingUpProtection">
 			<Original>Setting up protection...</Original>
 			<English>Setting up protection...</English>
 			<French>Mise en place de l'équipement...</French>
 		</Key>
-        <Key ID="STR_GSRI_weapon_allowed">
+        <Key ID="STR_GSRI_VIP_weaponAllowed">
 			<Original>Weapon in hands allowed</Original>
 			<English>Weapon in hands allowed</English>
 			<French>Arme en mains autorisée</French>
 		</Key>
-        <Key ID="STR_GSRI_weapon_allowed_tooltip">
+        <Key ID="STR_GSRI_VIP_weaponAllowed_tooltip">
 			<Original>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
 			<English>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
 			<French>Si autorisé, le joueur pourra équiper des protections à la cible en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
@@ -83,8 +83,8 @@
 			<French>Temps additionnel pour équiper un cache-visage</French>
 		</Key>
 		<Key ID="STR_GSRI_VIP_equipingGlassesExtraDuration_tooltip">
-			<Original>Additional duration in seconds when the target already has a glasses equiped</Original>
-			<English>Additional duration in seconds when the target already has a glasses equiped</English>
+			<Original>Additional duration in seconds when the target already has glasses equiped</Original>
+			<English>Additional duration in seconds when the target already has glasses equiped</English>
 			<French>Durée additionnelle en secondes lorsque la cible porte déjà un cache-visage</French>
 		</Key>	
 	</Package>
