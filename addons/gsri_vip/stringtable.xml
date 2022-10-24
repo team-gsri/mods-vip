@@ -16,6 +16,16 @@
 			<Original>Setting up protection...</Original>
 			<English>Setting up protection...</English>
 			<French>Mise en place de l'équipement...</French>
-		</Key>		
+		</Key>
+        <Key ID="STR_GSRI_weapon_allowed">
+			<Original>Weapon in hands allowed</Original>
+			<English>Weapon in hands allowed</English>
+			<French>Arme en mains autorisée</French>
+		</Key>
+        <Key ID="STR_GSRI_weapon_allowed_tooltip">
+			<Original>If allowed, the player will be able to equip protections to others while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
+			<English>If allowed, the player will be able to equip protections to others while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
+			<French>Si autorisé, le joueur pourra équiper des protections aux autres en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
+		</Key>	
 	</Package>
 </Project>
