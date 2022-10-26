@@ -22,9 +22,12 @@ class CfgFunctions {
 			class vipEquipGear {};
 			class vipEquipGearFailure {};
 			class vipEquipGearSuccess {};
+			class vipPlayTransitionAnimation {};
 			class vipProcessGearInfos {};
             class vipProtectionSettings {};
 			class vipTryEquipGear {};
+			class vipUnequipGear {};
+			class vipUnequipGearSuccess {};
 		};
 		class init{
 			file="fr\gsri\vip\functions\core";

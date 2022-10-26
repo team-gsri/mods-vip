@@ -29,9 +29,9 @@
     [
       format ["gsri_vip_equiping%1ExtraDuration", _x],
       "SLIDER",
-      [localize format ["STR_GSRI_VIP_equiping%1ExtraDuration", _x], localize format ["STR_GSRI_VIP_equiping%1ExtraDuration_tooltip", _x]],
+      [localize format ["STR_GSRI_VIP_unequiping%1Duration", _x], localize format ["STR_GSRI_VIP_unequiping%1Duration_tooltip", _x]],
       ["GSRI VIP", "Protection"],
-      [0, 60, 2, 1],
+      [1, 60, (2 max (defaultDuration/1.5)), 1],
       1,
       {},
       false
