@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Project name="gsri_vip">
-	<Package name="Metadata">
-		<Key ID="STR_GSRI_VIP_AUTHOR">
-			<Original>[-GSRI-] PhileasLX for www.gsri.team</Original>
-			<French>[-GSRI-] PhileasLX pour www.gsri.team</French>
-		</Key>
-	</Package>
-	<Package name="Protection">
-		<Key ID="STR_GSRI_VIP_protection">
-			<Original>Equip protection</Original>
-			<English>Equip protection</English>
-			<French>Équiper protection</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_settingUpProtection">
-			<Original>Setting up</Original>
-			<English>Setting up</English>
-			<French>Mise en place du</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_unequipingProtection">
-			<Original>Unequiping</Original>
-			<English>Unequiping</English>
-			<French>Retrait du</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_vest">
-			<Original>vest</Original>
-			<English>vest</English>
-			<French>gilet</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_headgear">
-			<Original>headgear</Original>
-			<English>headgear</English>
-			<French>couvre-chef</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_glasses">
-			<Original>face mask</Original>
-			<English>face mask</English>
-			<French>cache-visage</French>
-		</Key>
+    <Package name="Metadata">
+        <Key ID="STR_GSRI_VIP_AUTHOR">
+            <Original>[-GSRI-] PhileasLX for www.gsri.team</Original>
+            <French>[-GSRI-] PhileasLX pour www.gsri.team</French>
+        </Key>
+    </Package>
+    <Package name="Protection">
+        <Key ID="STR_GSRI_VIP_protection">
+            <Original>Equip protection</Original>
+            <English>Equip protection</English>
+            <French>Équiper protection</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_settingUpProtection">
+            <Original>Setting up</Original>
+            <English>Setting up</English>
+            <French>Mise en place du</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_unequipingProtection">
+            <Original>Unequiping</Original>
+            <English>Unequiping</English>
+            <French>Retrait du</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_vest">
+            <Original>vest</Original>
+            <English>vest</English>
+            <French>gilet</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_headgear">
+            <Original>headgear</Original>
+            <English>headgear</English>
+            <French>couvre-chef</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_glasses">
+            <Original>face mask</Original>
+            <English>face mask</English>
+            <French>cache-visage</French>
+        </Key>
         <Key ID="STR_GSRI_VIP_weaponAllowed">
-			<Original>Weapon in hands allowed</Original>
-			<English>Weapon in hands allowed</English>
-			<French>Arme en mains autorisée</French>
-		</Key>
+            <Original>Weapon in hands allowed</Original>
+            <English>Weapon in hands allowed</English>
+            <French>Arme en mains autorisée</French>
+        </Key>
         <Key ID="STR_GSRI_VIP_weaponAllowed_tooltip">
-			<Original>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
-			<English>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
-			<French>Si autorisé, le joueur pourra équiper des protections à la cible en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_equipingVestDuration">
-			<Original>Time to equip vest</Original>
-			<English>Time to equip vest</English>
-			<French>Temps pour équiper un gilet</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_equipingVestDuration_tooltip">
-			<Original>Duration in seconds to equip vest on target</Original>
-			<English>Duration in seconds to equip vest on target</English>
-			<French>Durée en secondes pour équiper un gilet sur la cible</French>
-		</Key>	
-		<Key ID="STR_GSRI_VIP_unequipingVestDuration">
-			<Original>Time to unequip target's vest</Original>
-			<English>Time to unequip target's vest</English>
-			<French>Temps pour retirer le gilet de la cible</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_unequipingVestDuration_tooltip">
-			<Original>Duration in seconds to unequip target's vest</Original>
-			<English>Duration in seconds to unequip target's vest</English>
-			<French>Durée en secondes pour retirer le gilet que porte la cible</French>
-		</Key>	
-		<Key ID="STR_GSRI_VIP_equipingHeadgearDuration">
-			<Original>Time to equip headgear</Original>
-			<English>Time to equip headgear</English>
-			<French>Temps pour équiper un couvre-chef</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_equipingHeadgearDuration_tooltip">
-			<Original>Duration in seconds to equip headgear on target</Original>
-			<English>Duration in seconds to equip headgear on target</English>
-			<French>Durée en secondes pour équiper un couvre-chef sur la cible</French>
-		</Key>	
-		<Key ID="STR_GSRI_VIP_unequipingHeadgearDuration">
-			<Original>Time to unequip target's headgear</Original>
-			<English>Time to unequip target's headgear</English>
-			<French>Temps pour retirer le couvre-chef de la cible</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_unequipingHeadgearDuration_tooltip">
-			<Original>Duration in seconds to unequip target's headgear</Original>
-			<English>Duration in seconds to unequip target's headgear</English>
-			<French>Durée en secondes pour retirer le couvre-chef que porte la cible</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_equipingGlassesDuration">
-			<Original>Time to equip face mask</Original>
-			<English>Time to equip face mask</English>
-			<French>Temps pour équiper un cache-visage</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_equipingGlassesDuration_tooltip">
-			<Original>Duration in seconds to equip face mask on target</Original>
-			<English>Duration in seconds to equip face mask on target</English>
-			<French>Durée en secondes pour équiper un cache-visage sur la cible</French>
-		</Key>	
-		<Key ID="STR_GSRI_VIP_unequipingGlassesDuration">
-			<Original>Time to unequip target's face mask</Original>
-			<English>Time to unequip target's face mask</English>
-			<French>Temps pour retirer le cache-visage de la cible</French>
-		</Key>
-		<Key ID="STR_GSRI_VIP_unequipingGlassesDuration_tooltip">
-			<Original>Duration in seconds to unequip target's face mask</Original>
-			<English>Duration in seconds to unequip target's face mask</English>
-			<French>Durée en secondes pour retirer le cache-visage que porte la cible</French>
-		</Key>	
-	</Package>
+            <Original>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</Original>
+            <English>If allowed, the player will be able to equip protections to the target while having weapon in his hands. If not allowed, the player will have to holster his weapons</English>
+            <French>Si autorisé, le joueur pourra équiper des protections à la cible en ayant une arme dans les mains. Si non autorisé, le joueur devra rengainer son arme.</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_equipingVestDuration">
+            <Original>Time to equip vest</Original>
+            <English>Time to equip vest</English>
+            <French>Temps pour équiper un gilet</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_equipingVestDuration_tooltip">
+            <Original>Duration in seconds to equip vest on target</Original>
+            <English>Duration in seconds to equip vest on target</English>
+            <French>Durée en secondes pour équiper un gilet sur la cible</French>
+        </Key>	
+        <Key ID="STR_GSRI_VIP_unequipingVestDuration">
+            <Original>Time to unequip target's vest</Original>
+            <English>Time to unequip target's vest</English>
+            <French>Temps pour retirer le gilet de la cible</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_unequipingVestDuration_tooltip">
+            <Original>Duration in seconds to unequip target's vest</Original>
+            <English>Duration in seconds to unequip target's vest</English>
+            <French>Durée en secondes pour retirer le gilet que porte la cible</French>
+        </Key>	
+        <Key ID="STR_GSRI_VIP_equipingHeadgearDuration">
+            <Original>Time to equip headgear</Original>
+            <English>Time to equip headgear</English>
+            <French>Temps pour équiper un couvre-chef</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_equipingHeadgearDuration_tooltip">
+            <Original>Duration in seconds to equip headgear on target</Original>
+            <English>Duration in seconds to equip headgear on target</English>
+            <French>Durée en secondes pour équiper un couvre-chef sur la cible</French>
+        </Key>	
+        <Key ID="STR_GSRI_VIP_unequipingHeadgearDuration">
+            <Original>Time to unequip target's headgear</Original>
+            <English>Time to unequip target's headgear</English>
+            <French>Temps pour retirer le couvre-chef de la cible</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_unequipingHeadgearDuration_tooltip">
+            <Original>Duration in seconds to unequip target's headgear</Original>
+            <English>Duration in seconds to unequip target's headgear</English>
+            <French>Durée en secondes pour retirer le couvre-chef que porte la cible</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_equipingGlassesDuration">
+            <Original>Time to equip face mask</Original>
+            <English>Time to equip face mask</English>
+            <French>Temps pour équiper un cache-visage</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_equipingGlassesDuration_tooltip">
+            <Original>Duration in seconds to equip face mask on target</Original>
+            <English>Duration in seconds to equip face mask on target</English>
+            <French>Durée en secondes pour équiper un cache-visage sur la cible</French>
+        </Key>	
+        <Key ID="STR_GSRI_VIP_unequipingGlassesDuration">
+            <Original>Time to unequip target's face mask</Original>
+            <English>Time to unequip target's face mask</English>
+            <French>Temps pour retirer le cache-visage de la cible</French>
+        </Key>
+        <Key ID="STR_GSRI_VIP_unequipingGlassesDuration_tooltip">
+            <Original>Duration in seconds to unequip target's face mask</Original>
+            <English>Duration in seconds to unequip target's face mask</English>
+            <French>Durée en secondes pour retirer le cache-visage que porte la cible</French>
+        </Key>	
+    </Package>
 </Project>

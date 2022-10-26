@@ -1,24 +1,24 @@
 _args params [
-	[
-		"_target",
-		objNull,
-		[objNull]
-	],
-	[
-		"_player", 
-		objNull,
-		[objNull]
-	],
-	[
-		"_gear", 
-		[], 
-		[[]]
-	],
-	[
-		"_animName", 
-		"", 
-		[""]
-	]
+    [
+        "_target",
+        objNull,
+        [objNull]
+    ],
+    [
+        "_player", 
+        objNull,
+        [objNull]
+    ],
+    [
+        "_gear", 
+        [], 
+        [[]]
+    ],
+    [
+        "_animName", 
+        "", 
+        [""]
+    ]
 ];
 
 _args call GSRI_fnc_vipEquipGear;

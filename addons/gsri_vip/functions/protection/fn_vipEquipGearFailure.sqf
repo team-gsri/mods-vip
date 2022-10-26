@@ -1,24 +1,24 @@
 _args params [
-	[
-		"_target",
-		objNull,
-		[objNull]
-	],
-	[
-		"_player", 
-		objNull,
-		[objNull]
-	],
-	[
-		"_gearInfos", 
-		[], 
-		[[]]
-	],
-	[
-		"_animName", 
-		"", 
-		[""]
-	]
+    [
+        "_target",
+        objNull,
+        [objNull]
+    ],
+    [
+        "_player", 
+        objNull,
+        [objNull]
+    ],
+    [
+        "_gearInfos", 
+        [], 
+        [[]]
+    ],
+    [
+        "_animName", 
+        "", 
+        [""]
+    ]
 ];
 
 [_player] call GSRI_fnc_vipPlayTransitionAnimation;
