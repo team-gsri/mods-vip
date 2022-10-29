@@ -5,25 +5,26 @@ params [
         [objNull]
     ],
     [
-        "_gear", 
+        "_gearType", 
         "", 
         [""]
     ]
 ];
 
-private _duration = 0;
+private _processedData = ["", [0,0]];
 
-switch (toLower(_gear call BIS_fnc_itemType select 1)) do {
+//Get gear type in order to get from setting the duration to equip it, and add extra time when the target already has this kind of gear
+switch (toLower(_gearType)) do {
     case "vest": {
-        if ((vest _target) isEqualTo "") then {_duration = 5;} else {_duration = 7;};
+        _processedData = [vest _target, [gsri_vip_equipingVestDuration, gsri_vip_equipingVestExtraDuration]];
     };
 
     case "headgear": {
-        if ((headgear _target) isEqualTo "") then {_duration = 2;} else {_duration = 4;};
+        _processedData = [headgear _target, [gsri_vip_equipingHeadgearDuration, gsri_vip_equipingHeadgearExtraDuration]];
     };
 
     case "glasses": {
-        if ((goggles _target) isEqualTo "") then {_duration = 3;} else {_duration = 5;};
+        _processedData = [goggles _target, [gsri_vip_equipingGlassesDuration,gsri_vip_equipingGlassesExtraDuration]];
     };
 
     default {
@@ -31,4 +32,4 @@ switch (toLower(_gear call BIS_fnc_itemType select 1)) do {
     };
 };
 
-_duration;
+_processedData;

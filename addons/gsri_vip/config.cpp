@@ -7,20 +7,31 @@ class CfgPatches {
     };
 };
 
+class Extended_PreInit_EventHandlers {
+  class gsri_vip {
+    init = "call GSRI_fnc_vipProtectionSettings";
+  };
+};
+
 class CfgFunctions {
-	class GSRI {
-		class protection{
-			file="fr\gsri\vip\functions\protection";
-			class vipCheckForGear {};
-			class vipEquipGear {};
-			class vipEquipGearFailure {};
-			class vipEquipGearSuccess {};
-			class vipProcessGearInfos {};
-			class vipTryEquipGear {};
-		};
-		class init{
-			file="fr\gsri\vip\functions\core";
-			class initVip { postInit = 1 };
-		};
-	};
+    class GSRI {
+        class protection{
+            file="fr\gsri\vip\functions\protection";
+            class vipCanEquipGear {};
+            class vipCheckForGear {};
+            class vipEquipGear {};
+            class vipEquipGearFailure {};
+            class vipEquipGearSuccess {};
+            class vipPlayTransitionAnimation {};
+            class vipProcessGearInfos {};
+            class vipProtectionSettings {};
+            class vipTryEquipGear {};
+            class vipUnequipGear {};
+            class vipUnequipGearSuccess {};
+        };
+        class init{
+            file="fr\gsri\vip\functions\core";
+            class initVip { postInit = 1 };
+        };
+    };
 };
